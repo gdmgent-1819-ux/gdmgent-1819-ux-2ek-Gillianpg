@@ -12,10 +12,71 @@
 <div class="container">
     <h1 class="sg-title">Digital styleguide</h1>
     <h2 class="sg-subtitle">Kleuren</h2>
+    #ffffff;
+    #dad7cf;
+    gray;
+    #ad9560;
+    #cef2fe;
+    #49575a
+    white;
     <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Luckiest Guy', cursive;
+    <h2 class="sg-subtitle">Knoppen</h2>
+        <a href="#">Home</a>
+        <a href="#">Kalender</a>
+        <a href="#">Links</a>
+        <a href="#">Contact</a>
+        <button type="submit" class="buttons">verzenden</button>
     <h2 class="sg-subtitle">Formulier</h2>
+    <div>
+        <form action="/action_page.php">
+            <div class="divcontainer">
+                <div class="formtags">
+                    <label for="firstname" class="formnames">Naam van kind<sub>(verplicht)</sub>
+                    </label>
+                    <input type="text" class="formfields" id="NaamvanKind">
+                </div>
+                <div class="formtags">
+                    <label for="birth" class="formnames">geboortedatum<sub>(verplicht)</sub></label>
+                    <input type="text" class="formfields">
+                </div>
+                <div class="formtags">
+                    <label for="name" class="formnames">Uw naam<sub>(verplicht)</sub></label>
+                    <input type="text" class="formfields">
+                </div>
+                <div class="formtags">
+                    <label for="adres" class="formnames">Uw adres</label>
+                    <input type="text" class="formfields">
+                </div>
+            </div>
+            <div class="divcontainer">
+                <div class="formtags">
+                    <label for="email" class="formnames">Uw e-mail<sub>(verplicht)</sub></label>
+                    <input type="email" class="formfields">
+                </div>
+                <div class="formtags">
+                    <label for="tel" class="formnames">Uw telefoonnummer</label>
+                    <input type="tel" class="formfields">
+                </div>
+                
+            </div>
+            <div class="divcontainer">
+
+
+                <div class="formtags">
+                    <label for="textarea" class="formnames opmerking">opmerkingen</label>
+                    <input type="text" id="opmerkingen">
+                </div>
+                <button type="submit" class="buttons">verzenden</button>
+            </div>
+        </form>
+    </div>
     <h2 class="sg-subtitle">Componenten</h2>
+        <a href="#">Home</a>
+        <a href="#">Kalender</a>
+        <a href="#">Links</a>
+        <a href="#">Contact</a>
 </div>
 </body>
 </html>
